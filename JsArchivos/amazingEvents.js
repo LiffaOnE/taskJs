@@ -2,20 +2,9 @@ let showCardContainer = document.getElementById('showCards')
 console.log(showCardContainer)
 let stringHtml = ""
 
-const confirmacionFecha = () => {
-    let firstDate = data.currentDate
-    let secondDate = data.events[2]
-    if(firstDate > secondDate){
-        return firstDate
-    } else {
-        return secondDate
-    }
-}
-
-
-
 let arrayConEventos = data.events
 for (events of arrayConEventos) {
+    if(events.date > data.currentDate)
     stringHtml += `
     <div class="card" id="card1">
     <figure>

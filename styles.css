@@ -37,7 +37,6 @@ header {
   height: 10vh;
   background-color: #555555;
   align-items: center;
-  padding: 10px;
 }
 
 .loguito {
@@ -213,7 +212,7 @@ td {
 @media (max-width:960px){
   header {
     height: 8vh;
-    width: 98%;
+    width: 100%;
   }
   .loguito img {
     width: 2.8rem;
@@ -234,7 +233,7 @@ td {
 @media (max-width:768px){
   header {
     height: 8vh;
-    width: 97%;
+    width: 100%;
   }
   .botonera {
     width: 80%;
@@ -252,7 +251,7 @@ td {
 }
 @media (max-width:640px){
   header {
-    width: 96%;
+    width: 100%;
   }
   .botonera {
     width: 100%;

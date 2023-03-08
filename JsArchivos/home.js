@@ -16,7 +16,8 @@ let showCardContainer = document.getElementById('showCards')
 console.log(showCardContainer)
 let stringHtml = ""
 
-for (events of data.events) {
+let arrayConEventos = data.events
+for (events of arrayConEventos){
     stringHtml += `
     <div class="card" id="card1">
     <figure>

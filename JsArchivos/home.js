@@ -1,22 +1,3 @@
-// function fechaBase(fechaInicio,fechaActual){
-//     return fechaInicio + fechaActual
-// }
-// console.log(fechaBase)
-
-// const fechaActual = (fechaActual) => {
-//     return data.events[date]
-// }
-
-// console.log(fechaActual)
-
-// const fechaInicio = (fechaUno) => {
-//     return data.currentDate;
-// }
-// console.log(fechaInicio)
-// data.events.forEach(function (index) {
-//     console.log(index)
-// });
-
 let contenedor = document.getElementById("contenedor")
 
 // for (let i = 0; i < data.events.length; i++) {
